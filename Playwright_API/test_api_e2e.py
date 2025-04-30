@@ -1,4 +1,5 @@
 import json
+import time
 
 import pytest
 from playwright.sync_api import Playwright, expect
@@ -28,3 +29,6 @@ def test_new_page(playwright: Playwright, BrowserInstance, user_credentials):
     ordersHistory = dashboardPage.navigate()
     OrderDetailsPage = ordersHistory.select_order(order_id)
     OrderDetailsPage.assert_order_details(order_id)
+    time.sleep(3)
+
+
