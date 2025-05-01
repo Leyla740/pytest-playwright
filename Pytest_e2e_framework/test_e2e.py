@@ -1,4 +1,4 @@
-from Playwright.POM.Login_Page import LoginPage
+from Playwright_Pytest.POM.Login_Page import LoginPage
 
 
 def test_e2e_fr (BrowserInstance):
