@@ -10,6 +10,9 @@ with open("data.json", "r") as f:
     data = json.load(f)
     user_data = data["user_credentials"]
 
+
+
+
 @pytest.mark.parametrize("user_credentials", user_data)
 def test_browser_set_up(BrowserInvocation, user_credentials):
     userName = user_credentials["userEmail"]
