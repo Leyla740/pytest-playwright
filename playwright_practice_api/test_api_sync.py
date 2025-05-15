@@ -40,7 +40,7 @@ def intercept_request(route):
 
 @pytest.mark.interception
 def test_interception(page: Page):
-    page.goto("https://rahulshettyacademy.com/client")
+    page.goto("/client")
     page.locator("#userEmail").fill("jabbarova.leyla@gmail.com")
     page.locator("#userPassword").fill("T0gether@")
     page.locator("#login").click()
@@ -50,7 +50,7 @@ def test_interception(page: Page):
 
 @pytest.mark.interception
 def test_interception_request(page: Page):
-    page.goto("https://rahulshettyacademy.com/client")
+    page.goto("/client")
     page.locator("#userEmail").fill("jabbarova.leyla@gmail.com")
     page.locator("#userPassword").fill("T0gether@")
     page.locator("#login").click()
