@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4371","test_interception[chromium]","","Sat May 17 11:23:01 EDT 2025","passed","Sat May 17 11:23:06 EDT 2025","","test_api_sync","",""
+"","248","test_create_order","","Sat May 17 11:23:01 EDT 2025","passed","Sat May 17 11:23:01 EDT 2025","","test_api_sync","",""
+"","5154","test_interception_request[chromium]","","Sat May 17 11:23:06 EDT 2025","passed","Sat May 17 11:23:11 EDT 2025","","test_api_sync","",""
